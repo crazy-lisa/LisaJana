@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lisa Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="L.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
+                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Biotechnology Student</p>
+            <h1>Hi, I'm <span>Lisa</span><br>Jen From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a fresher student in the field of biotechnology, with curiosity in the present and ever-growing interest in this field. Though at the beginning curve, I am deeply eager to learn how biotechnology can bring innovation into health care, agriculture, and environmental sustainability. I look forward with eagerness to an academically enriching and practically endowed experience in my studies and intend to contribute something to the development in this dynamic field. I also am eager to learn and grow, and with this in mind, I am committed to using all available opportunities for my education and applying received knowledge in practice to current challenges.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Interests')">Interests</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Python</li>
+                        <!-- <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Interests">
+                    <ul>
+                        <li><span>2024 - Current</span><br>learn Programming Languages.</li>
+                        <li><span>2019 - Current</span><br>Singing.</li>
+                        <li><span>2010 - 2022</span><br>Dancing.</li>
+                        <!-- <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>University of Engineering and Management, Newtown, West Bengal, India <br> Pursuing BTECH Degree in Biotechnology</li>
+                        <li><span>2024</span><br>12th Board (Science Stream) Baradongal Rama Nath Institution, West Bengal, focused on Physics, Chemistry, Mathematics, and Biology during my higher secondary education.</li>
+                        <li><span>2022</span><br>10th Board Baradongal Rama Nath institution, West Bengal.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Currently pursuing foundational coursework in biotechnology,<br> including introductory lab work and projects related to microbiology and biochemistry.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <div class="services-list">
+            <div>
+                <i class="fas fa-solid fa-paperclip"></i>
+                <h2>Paper/Patent Publications</h2>
+                <p>No publications yet; aiming to contribute to research papers during my course.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-solid fa-award"></i>
+                <h2>Awards and Achievements</h2>
+                <p>Achieved academic excellence awards in high school science courses, and received a scholarship for biotechnology studies.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-diagram-project"></i>
+                <h2>Projects</h2>
+                <p>Currently involved in a basic microbiology project to study bacterial cultures and their growth patterns under different conditions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-solid fa-newspaper"></i>
+                <h2>Paper/Patent Publications</h2>
+                <p>Looking forward to presenting on biotechnology topics in upcoming seminars.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div> 
+                <i class="fas fa-ticket-alt"></i> 
+                <h2>Membership</h2>
+                <p>Member of the university's Biotechnology Society.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-calendar-alt"></i> 
+                <h2>List of Events</h2>
+                <p>Attended a university-led seminar on the future of genetic editing in biotechnology.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-book"></i> 
+                <h2>Courses Completed</h2>
+                <p>Enrolled in NPTEL course on Introduction to Biotechnology, with plans to take further courses on genetic engineering and biostatistics.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-soli fa-bookmark"></i>
+                <h2>Research Thrust Area</h2>
+                <p>Interested in genetic engineering and bioinformatics, with a focus on sustainable agricultural solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane" style="color: #ff004f;"></i> contact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+                <!-- <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Debesh.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
